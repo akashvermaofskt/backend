@@ -8,8 +8,7 @@ let Todo = new Schema({
     todo_responsible: {
         type: String
     },
-    todo_task: [],
-    
+    todo_tasks: [String]
 });
 
 module.exports = mongoose.model('Todo', Todo);
